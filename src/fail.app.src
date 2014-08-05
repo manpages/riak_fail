@@ -1,11 +1,12 @@
 {application, fail,
  [
-  {description, ""},
+  {description, "Studies in handoffs."},
   {vsn, "1"},
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  riak_core
                  ]},
   {mod, { fail_app, []}},
   {env, []}
